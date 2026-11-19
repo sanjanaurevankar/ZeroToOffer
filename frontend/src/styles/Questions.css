@@ -1,0 +1,105 @@
+.search-box {
+    width: 100%;
+    padding: 12px 14px;
+    margin: 20px 0;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    font-size: 15px;
+    background: var(--surface);
+    color: var(--text-primary);
+}
+
+.search-box::placeholder {
+    color: var(--text-faint);
+}
+
+.search-box:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.difficulty-filter {
+    margin-bottom: 20px;
+    margin-right: 12px;
+    padding: 10px 12px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-primary);
+    font-size: 14px;
+}
+
+.questions-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.questions-table thead {
+    background: var(--surface-raised);
+}
+
+.questions-table th {
+    text-align: left;
+    padding: 14px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid var(--border);
+}
+
+.questions-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+    color: var(--text-primary);
+}
+
+.questions-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.questions-table tbody tr:hover {
+    background: var(--surface-raised);
+}
+
+.difficulty {
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.easy {
+    background-color: var(--success-soft);
+    color: var(--success);
+}
+
+.medium {
+    background-color: var(--warning-soft);
+    color: var(--warning);
+}
+
+.hard {
+    background-color: var(--danger-soft);
+    color: #f87171;
+}
+
+.status-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    padding: 4px;
+}
+
+.error-text {
+    color: #f87171;
+    font-weight: 600;
+}

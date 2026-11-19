@@ -1,0 +1,18 @@
+db.js only contains the database connection logic. It exports the connectDB() function but does not execute it. The application's entry point is server.js, which imports connectDB() and calls it before starting the Express server.
+
+app.use(express.json());
+We're telling Express:
+"Whenever you receive JSON data in the request body, open it, parse it, and convert it into a JavaScript object. Put that object inside req.body.
+
+express.json() is middleware that parses incoming JSON request bodies and converts them into JavaScript objects. It stores the parsed data in req.body, allowing the server to easily access values like email and password.
+
+app.use() registers middleware with the Express application. Middleware runs before the request reaches the route handler. In the case of app.use(express.json()), it parses incoming JSON request bodies and makes the parsed data available in req.body.
+
+Q: Why is require("dotenv").config() written as the first line in server.js?
+
+Answer:
+
+dotenv.config() loads all environment variables from the .env file into process.env. Since values like MONGODB_URI, PORT, and JWT_SECRET are required before connecting to the database or starting the server, it must be executed before any code that accesses process.env.
+
+
+We import the User model because the controller needs to interact with the MongoDB database. Using the model, we can create, find, update, and delete user documents without writing database logic manually.

@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Two Sum",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Arrays",
+    "pattern": "HashMap",
+    "company": "Amazon",
+    "link": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "title": "Contains Duplicate",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Arrays",
+    "pattern": "HashMap",
+    "company": "Amazon",
+    "link": "https://leetcode.com/problems/contains-duplicate/"
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Arrays",
+    "pattern": "Sliding Window",
+    "company": "Amazon",
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+  },
+  {
+    "title": "Product of Array Except Self",
+    "platform": "LeetCode",
+    "difficulty": "Medium",
+    "topic": "Arrays",
+    "pattern": "Prefix Sum",
+    "company": "Facebook",
+    "link": "https://leetcode.com/problems/product-of-array-except-self/"
+  },
+  {
+    "title": "Valid Anagram",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Hashing",
+    "pattern": "HashMap",
+    "company": "Google",
+    "link": "https://leetcode.com/problems/valid-anagram/"
+  },
+  {
+    "title": "Group Anagrams",
+    "platform": "LeetCode",
+    "difficulty": "Medium",
+    "topic": "Hashing",
+    "pattern": "HashMap",
+    "company": "Amazon",
+    "link": "https://leetcode.com/problems/group-anagrams/"
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "platform": "LeetCode",
+    "difficulty": "Medium",
+    "topic": "Sliding Window",
+    "pattern": "Sliding Window",
+    "company": "Amazon",
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  {
+    "title": "Permutation in String",
+    "platform": "LeetCode",
+    "difficulty": "Medium",
+    "topic": "Sliding Window",
+    "pattern": "Sliding Window",
+    "company": "Facebook",
+    "link": "https://leetcode.com/problems/permutation-in-string/"
+  },
+  {
+    "title": "Maximum Number of Vowels in a Substring",
+    "platform": "LeetCode",
+    "difficulty": "Medium",
+    "topic": "Sliding Window",
+    "pattern": "Sliding Window",
+    "company": "Google",
+    "link": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/"
+  },
+  {
+    "title": "Binary Search",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Binary Search",
+    "pattern": "Binary Search",
+    "company": "Microsoft",
+    "link": "https://leetcode.com/problems/binary-search/"
+  },
+  {
+    "title": "Search Insert Position",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Binary Search",
+    "pattern": "Binary Search",
+    "company": "Google",
+    "link": "https://leetcode.com/problems/search-insert-position/"
+  },
+  {
+    "title": "First Bad Version",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Binary Search",
+    "pattern": "Binary Search",
+    "company": "Facebook",
+    "link": "https://leetcode.com/problems/first-bad-version/"
+  },
+  {
+    "title": "Reverse Linked List",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "pattern": "Pointer",
+    "company": "Amazon",
+    "link": "https://leetcode.com/problems/reverse-linked-list/"
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "pattern": "Pointer",
+    "company": "Microsoft",
+    "link": "https://leetcode.com/problems/merge-two-sorted-lists/"
+  },
+  {
+    "title": "Middle of the Linked List",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "pattern": "Fast & Slow Pointer",
+    "company": "Amazon",
+    "link": "https://leetcode.com/problems/middle-of-the-linked-list/"
+  },
+  {
+    "title": "Valid Parentheses",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Stack",
+    "pattern": "Stack",
+    "company": "Google",
+    "link": "https://leetcode.com/problems/valid-parentheses/"
+  },
+  {
+    "title": "Min Stack",
+    "platform": "LeetCode",
+    "difficulty": "Medium",
+    "topic": "Stack",
+    "pattern": "Stack",
+    "company": "Amazon",
+    "link": "https://leetcode.com/problems/min-stack/"
+  },
+  {
+    "title": "Implement Queue using Stacks",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Queue",
+    "pattern": "Stack",
+    "company": "Microsoft",
+    "link": "https://leetcode.com/problems/implement-queue-using-stacks/"
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Trees",
+    "pattern": "DFS",
+    "company": "Amazon",
+    "link": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+  },
+  {
+    "title": "Invert Binary Tree",
+    "platform": "LeetCode",
+    "difficulty": "Easy",
+    "topic": "Trees",
+    "pattern": "DFS",
+    "company": "Google",
+    "link": "https://leetcode.com/problems/invert-binary-tree/"
+  }
+]

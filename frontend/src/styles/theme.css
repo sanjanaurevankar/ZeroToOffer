@@ -1,0 +1,80 @@
+/* ==========================================================
+   ZeroToOffer — Design Tokens
+   Single source of truth for color, type, and spacing.
+   Every other stylesheet should reference these variables
+   instead of hardcoding hex values.
+   ========================================================== */
+
+:root {
+  /* Surfaces */
+  --bg: #111318;
+  --surface: #171a21;
+  --surface-raised: #1e222b;
+  --border: #262b35;
+
+  /* Text */
+  --text-primary: #e5e7eb;
+  --text-muted: #8b93a1;
+  --text-faint: #5b6472;
+
+  /* Brand accent */
+  --accent: #a78bfa;
+  --accent-soft: rgba(167, 139, 250, 0.14);
+  --accent-hover: #bda4fb;
+
+  /* Secondary accent - used sparingly, one highlight at a time */
+  --accent-2: #2dd4bf;
+  --accent-2-soft: rgba(45, 212, 191, 0.14);
+
+  /* Status colors - kept separate from the brand accent on purpose */
+  --success: #22c55e;
+  --success-soft: rgba(34, 197, 94, 0.14);
+  --warning: #f59e0b;
+  --warning-soft: rgba(245, 158, 11, 0.14);
+  --danger: #ef4444;
+  --danger-soft: rgba(239, 68, 68, 0.14);
+
+  /* Type */
+  --font-ui: "Sora", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Radius / shadow, used consistently instead of per-component values */
+  --radius: 10px;
+  --radius-lg: 16px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Consistent focus ring across the app for keyboard accessibility */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
